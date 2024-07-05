@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Agaamin - Payment Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    </head>
+
+    <body >
+
+        <div class="page">
+
+            <div class="form">
+                <h1>Enter your Payment Details Below</h1>
+                <form action="">
+                    <div class="input-box">
+                        <label>Enter the Smart Name here</label>
+                        <br>
+                        <input type="text" name="username" autocomplete="off" required>
+                    </div>
+                    <div class="input-box">
+                        <label>Enter Captcha given below</label>
+                        <br>
+                        
+                    </div>
+
+                    <form id="myForm">
+                        <div id="captcha">
+                            <span id="captchaText"></span>
+                        </div>
+
+                        <input type="text" id="captchaInput" placeholder="Enter Captcha" required>
+                        <button type="submit">Submit</button>
+                    </form>
+                    <script src="script.js"></script>
+                </form>
+            </div>
+
+        </div>
+        
+    </body>
+</html>
